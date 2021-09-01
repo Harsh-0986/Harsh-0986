@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Harsh-0986
 - 👀 I have expertised Python, Java, C, C++, C#, Javascript.
 - 🌱 I’m currently learning PHP.
-- 💞️ I’m looking to collaborate on NoteWord Web in React JS(similar to Google Docs).
+- 💞️ I’m looking to collaborate on memories in React JS(A Social Media App).
 - 📫 Reach me at harsh.r.shah2102@outlook.com.
 
 ## My github stats
