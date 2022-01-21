@@ -12,5 +12,5 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Harsh-0986)](https://github.com/Harsh-0986/github-readme-stats)
 
 ## My Dev Card 
-<img src="https://github.com/rebelchris/rebelchris/blob/master/devcard.svg" width="400" alt="Harsh Shah's Dev Card"/>
+<img src="https://github.com/Harsh-0986/Harsh-0986/blob/master/devcard.svg" width="400" alt="Harsh Shah's Dev Card"/>
 
