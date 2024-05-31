@@ -8,4 +8,6 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Harsh-0986)](https://github.com/Harsh-0986/github-readme-stats)
 
+## Trophies
+[![trophy](https://github-profile-trophy.vercel.app/?username=harsh-0986&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
