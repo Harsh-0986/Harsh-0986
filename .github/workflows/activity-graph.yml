@@ -34,17 +34,16 @@ jobs:
           OUT: activity-graph.svg
         run: python .github/scripts/activity_graph.py
 
-      - name: Skip commit if unchanged
-        id: diff
-        run: |
-          if git diff --quiet -- activity-graph.svg; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
+      # - name: Skip commit if unchanged
+      #   id: diff
+      #   run: |
+      #     if git diff --quiet -- activity-graph.svg; then
+      #       echo "changed=false" >> "$GITHUB_OUTPUT"
+      #     else
+      #       echo "changed=true" >> "$GITHUB_OUTPUT"
+      #     fi
 
       - name: Commit and push SVG
-        if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
