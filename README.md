@@ -225,7 +225,7 @@ and static websites.
 
 <div align="center">
 
-![Harsh-0986's GitHub activity graph](./assets/cards/activity-graph.svg)
+![Harsh-0986's GitHub activity graph](./activity-graph.svg)
 
 </div>
 
