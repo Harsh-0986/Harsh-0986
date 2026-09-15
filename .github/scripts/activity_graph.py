@@ -26,7 +26,7 @@ import sys
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
-LOGIN = os.environ.get("GH_LOGIN", "mulhamna")
+LOGIN = os.environ.get("GH_LOGIN", "harsh-0986")
 OUT = os.environ.get("OUT", "assets/cards/activity-graph.svg")
 WINDOW_DAYS = int(os.environ.get("WINDOW_DAYS", "122"))
 MIN_PCT = float(os.environ.get("MIN_PCT", "1.0"))
