@@ -7,7 +7,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "scripts/activity_graph.py"
+      - ".github/scripts/activity_graph.py"
       - ".github/workflows/activity-graph.yml"
 
 permissions:
@@ -30,9 +30,9 @@ jobs:
       - name: Render activity graph SVG
         env:
           GH_TOKEN: ${{ github.token }}
-          GH_LOGIN: mulhamna
+          GH_LOGIN: harsh-0986
           OUT: activity-graph.svg
-        run: python scripts/activity_graph.py
+        run: python .github/scripts/activity_graph.py
 
       - name: Skip commit if unchanged
         id: diff
